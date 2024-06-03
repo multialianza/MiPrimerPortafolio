@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="I. Salazar">
+    <meta name="descripción" content="Bootstrap, Html, Css, Scss, JS">
+    <meta name="keywords" content="Portafolio">
+    <title>MI PORTAFOLIO</title>
+
+    <!-- ESTILOS EXTERNOS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- SCRIPT DE BOOSTRAP -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- SCRIPT FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/d5b48fda4e.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="bg-success">
+    <!-- MENU DE NAVEGACIÓN -->
+    <nav class="container navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary fw-bold" href="#"
+          ><em>Iván Salazar</em></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active text-primary fw-normal" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active text-primary fw-normal" aria-current="page" href="#habilidades">Habilidades</a>
+            <a class="nav-link active text-primary fw-normal" aria-current="page" href="#proyectos">Proyectos</a>
+            <a class="nav-link active text-primary fw-normal" aria-current="page" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- FIN MENU DE NAVEGACIÓN -->
+
+
+    <!-- --------------------------------------------INICIO MAIN----------------------------------------------------------- -->
+
+    <main>
+      <!--SECCION PERFIL PROGRAMADOR FRONT-END  -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="container my-3 py-2">
+                <img class="w-100" src="./assets/img/developer.svg" alt="imagen-developer-front-end" />
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="container-fluid">
+                <h1 class="fw-bolder">Soy Iván Salazar</h1>
+                <h2 class="text-secondary">Desarrollador Front-End</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi distinctio iure at nesciunt fugit ut debitis dignissimos dolor aut! Odio autem consequatur velit quibusdam iste unde quos laboriosam fuga?
+                </p>
+                <div class="col-12 col-md-3">
+                  <button type="button" class="btn btn-primary w-100">
+                    Contactame
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--FIN SECCION PERFIL PROGRAMADOR FRONT-END  -->
+      
+
+      <!-- HABILIDADES -->
+      <section class="container my-5" id="habilidades">
+        <h2 class="text-center text-primary py-3 ">Mis Habilidades</h2>
+
+        <div class="row">
+          
+          <div class="col-6 col-md-6 text-center">
+
+            <img src="./assets/img/html.png" alt="logo-html" class="logos-logos " /><span>HTML</span>
+
+            <img src="./assets/img/css.png" alt="logo-css" class="logos-logos " /><span>CSS</span>
+
+            <img src="./assets/img/1200px-Sass_Logo_Color.svg.png" alt="logo-sass" class="logos-logos " /><span>Sass</span>
+
+            <img src="./assets/img/bootstrap-logo.png" alt="logo-boostrap" class="logos-logos " /><span>Bstrap</span>
+
+          </div>
+          
+          <div class="col-6 col-md-6">
+
+            <img src="./assets/img/git.png" alt="logo-git" class="logos-logos" /><span>Git</span>
+            
+            <img src="./assets/img/git-hub.png" alt="logo-git-hub" class="logos-logos" /><span>Github</span>
+
+            <img src="./assets/img/js.png" alt="logo-javascript" class="logos-logos" /><span>JS</span>
+
+            <img src="./assets/img/vue.png" alt="logo-vuejs" class="logos-logos" /><span>Vuejs</span>
+
+          </div>
+        </div>
+      </section>
+      <!-- FIN HABILIDADES -->
+
+      <!-- SECCION MIS PROYECTOS -->
+      <section class="container my-3" id="proyectos">
+        <div class="row">
+          <h2 class="text-center text-primary my-5">Mis Proyectos</h2>
+          <div class="col-12 col-md-3 my-2 text-center">
+            <img
+              src="./assets/img/meetcoffee.png"
+              class="img-proyectos"
+              alt="img-meet" />
+          </div>
+          <div class="col-12 col-md-3 my-2 text-center">
+            <img
+              src="./assets/img/meetcoffee.png"
+              class="img-proyectos"
+              alt="img-meet" />
+          </div>
+          <div class="col-12 my-2 col-md-3 text-center">
+            <img
+              src="./assets/img/meetcoffee.png"
+              class="img-proyectos"
+              alt="img-meet" />
+          </div>
+          <div class="col-12 my-2 col-md-3 text-center">
+            <img
+              src="./assets/img/meetcoffee.png"
+              class="img-proyectos"
+              alt="img-meet" />
+          </div>
+        </div>
+      </section>
+      <!-- FIN SECCION MIS PROYECTOS -->
+    </main>
+    <!-- ---------------------------------------------FIN MAIN---------------------------------------------------------- -->
+
+    <!-- INICIO FOOTER -->
+    <footer class="container" id="contacto"> 
+      <div class="row">
+        <h2 class="text-center text-primary p-4">Contactame</h2>
+
+        <!-- INICIO DE INPUT -->
+        <div class="col-md-6 p-3">
+          <!-- SECCION DE INPUT -->
+          <form class="row d-flex g-3">
+
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" />
+            </div>
+
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" />
+            </div>
+
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Email" aria-label="Last name" />
+              
+            </div>
+            <div class="col-12">
+              
+              <input type="text" class="form-control pb-5" placeholder="Escribe un mensaje..." aria-label="Last name" />
+            </div>
+
+            <div class="col-12 col-lg-6 my-5">
+              <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <!-- FIN DE INPUT -->
+
+        <!-- SECCION DE ICONOS -->
+        <section class="col-md-6 p-3">
+          <div class="d-flex flex-column">
+            <!--ICONO 1 -->
+            <div class="pb-3 text-primary hover">
+              <i class="fa-solid fa-phone"></i> <a href="#" target="_blank">+5699777777</a>
+            </div>
+            <!-- ICONO 2 -->
+            <div class="pb-3 text-primary hover">
+              <i class="fa-solid fa-envelope"></i><a href="#" target="_blank">infocar365@gmail.com</a>
+            </div>
+            <!-- ICONO 3 -->
+            <div class="pb-3 text-primary hover">
+              <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
+            </div>
+            <!-- ICONO DE 4 -->
+            <div class="pb-3 text-primary hover">
+              <i class="fa-brands fa-github"></i> <a href="https://github.com" target="_blank">Github</a>
+            </div>
+            <!-- ICONO DE 5 -->
+            <div class="pb-3 text-primary hover">
+              <i class="fa-brands fa-instagram"></i> <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+          </div>
+        </section>
+        <!-- FIN SECCION DE ICONOS -->
+      </div>
+    </footer>
+    <!-- FIN FOOTER -->
+
+  </body>
+</html>

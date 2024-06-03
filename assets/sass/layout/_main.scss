@@ -1,0 +1,52 @@
+//SECCION MENU DE NAVEGACIÓN
+.navbar-nav .nav-link {
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(0.95);
+  background-color: rgba(85, 137, 137, 0.137);
+}
+//SECCION HABILIDADES
+.logos-logos {
+  width: 2.5rem;
+  margin: 1.1rem;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.logos-logos:hover {
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+//SECCION PROYECTO
+.img-proyectos {
+  width: 17rem;
+  object-fit: cover;
+}
+
+.img-proyectos:hover {
+  transform: scale(1.1);
+}
+
+//SECCIÓN ICONOS DEL FOOTER
+.hover {
+  color: inherit;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.hover:hover {
+  background-color: rgba(85, 137, 137, 0.137);
+  transform: scale(0.95);
+  width: 50%;
+}
+
+//ICONOS DE LA SECCION DEL FOOTER
+i {
+  margin: 0.5rem;
+}
